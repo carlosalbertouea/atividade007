@@ -1,0 +1,14 @@
+Mar 07 10:15:32 server1 sshd[1024]: Accepted password for user1 from 192.168.1.10 port 54321 ssh2
+Mar 07 10:16:45 server1 systemd[1]: Started Apache Web Server.
+Mar 07 10:17:01 server1 cron[2048]: (root) CMD (/usr/bin/backup.sh)
+Mar 07 10:18:07 server1 sshd[1055]: Failed password for user2 from 192.168.1.11 port 54632 ssh2
+Mar 07 10:19:30 server1 systemd[1]: Stopped Apache Web Server.
+Mar 07 10:20:05 server1 sshd[1060]: Accepted password for admin from 192.168.1.12 port 54789 ssh2
+Mar 07 10:22:15 server1 sudo[1084]: user3 : TTY=pts/0 ; PWD=/home/user3 ; USER=root ; COMMAND=/bin/ls
+Mar 07 10:25:50 server1 sshd[1101]: Failed password for root from 192.168.1.14 port 54987 ssh2
+Mar 07 10:30:12 server1 systemd[1]: Started MySQL Database Server.
+Mar 07 10:31:34 server1 cron[2111]: (root) CMD (/usr/bin/cleanup.sh)
+Mar 07 10:33:05 server1 sshd[1125]: Failed password for user4 from 192.168.1.15 port 55023 ssh2
+Mar 07 10:40:22 server1 sshd[1138]: Accepted password for user5 from 192.168.1.16 port 55100 ssh2
+Mar 07 10:45:50 server1 systemd[1]: Stopped MySQL Database Server.
+Mar 07 10:50:30 server1 sudo[1156]: user2 : TTY=pts/1 ; PWD=/home/user2 ; USER=root ; COMMAND=/bin/cat /var/log/auth.log
