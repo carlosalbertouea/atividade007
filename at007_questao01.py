@@ -9,3 +9,4 @@ Type "help", "copyright", "credits" or "license()" for more information.
 ...         print('Arquivo não encontrado. Verifique o caminho.')
 ... 
 ... if __name__ == "__main__":
+        contar_linhas()
